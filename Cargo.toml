@@ -1,0 +1,8 @@
+[package]
+
+name = "wheels"
+version = "0.0.1"
+authors = ["Simon Ask Ulsnes <simon@ulsnes.dk>"]
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper.git"
