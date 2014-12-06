@@ -4,7 +4,6 @@ fn hello(req: w::Request) -> w::Response {
   w::render_text("Hello, World!")
 }
 
-
 fn main() {
   let mut app = w::App::new();
   app.get("/", &hello);
